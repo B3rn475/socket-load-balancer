@@ -13,7 +13,7 @@ __Example:__
 ```js
 var slb = require("socket-load-balancer");
 
-var router = sld.policies.RoundRobin();
+var router = slb.policies.RoundRobin();
 router.addRoute({host: "127.0.0.1", port: 3001});
 router.addRoute({host: "127.0.0.1", port: 3002});
 
