@@ -1,0 +1,23 @@
+{
+    "name": "socket-load-balancer",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": ["socket","balancer"],
+    "homepage": "https://github.com/B3rn475/socket-load-balancer",
+    "author": {
+        "name" : "Carlo BERNASCHINA",
+        "url" : "http://www.bernaschina.com/"
+    },
+    "licenses": {
+        "type": "MIT",
+        "url": "http://github.com/B3rn475/socket-load-balancer/raw/master/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/B3rn475/socket-load-balancer.git"
+    },
+    "dependencies": {
+    },
+    "engines": {"node":">=0.8.0"},
+    "main": "index.js"
+}
