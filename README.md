@@ -14,8 +14,8 @@ __Example:__
 var slb = require("socket-load-balancer");
 
 var router = slb.policies.RoundRobin();
-router.addRoute({host: "127.0.0.1", port: 3001});
-router.addRoute({host: "127.0.0.1", port: 3002});
+router.addRoute({port: 3001});
+router.addRoute({port: 3002});
 
 slb.Server({
     router: router
