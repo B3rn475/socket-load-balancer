@@ -10,6 +10,6 @@
 module.exports.Server = require('./lib/server.js');
 
 module.exports.policies = {
-    LeastUsed: require('./lib/policies/leastused.js'),
-    RoundRobin: require('./lib/policies/roundrobin.js'),
+    LeastUsed: require('./lib/policies/leastused.js').Policy,
+    RoundRobin: require('./lib/policies/roundrobin.js').Policy,
 };
