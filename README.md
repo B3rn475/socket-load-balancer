@@ -62,3 +62,25 @@ They both have a common interface:
 
  - __addRoute(__route__)__ adds a new router
  - __removeRoute(__route__)__ removes an existing route
+ 
+Timeout
+---
+ 
+ You can optionally activate a timeout in order to close connections if unused for a certain ammount of time.
+ 
+ ```js
+var slb = require("socket-load-balancer");
+
+var router = slb.routers.RoundRobin({
+    routes: [
+        {port: 3001},
+        {port: 3002}
+    ]
+});
+
+var server = slb.Server({
+    router: router
+})
+server.setTimeout(120000);
+server.listen(3000);
+```
