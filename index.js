@@ -9,7 +9,7 @@
 
 module.exports.Server = require('./lib/server.js');
 
-module.exports.policies = {
-    LeastUsed: require('./lib/policies/leastused.js').Policy,
-    RoundRobin: require('./lib/policies/roundrobin.js').Policy,
+module.exports.routers = {
+    LeastUsed: require('./lib/routers/leastused.js').Router,
+    RoundRobin: require('./lib/routers/roundrobin.js').Router,
 };
