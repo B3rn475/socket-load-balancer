@@ -1,7 +1,7 @@
 socket-load-balancer
 ====================
 
-This is a load balancer that works at TCP level and distributes connections across different servers.
+This is a load balancer that works at TCP/Unix Socket level and distributes connections across different servers.
 
 __Example:__
 
