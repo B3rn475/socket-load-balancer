@@ -60,8 +60,8 @@ There are already 2 Routers available:
 
 They both have a common interface:
 
- - __addRoute(__route__)__ adds a new router
- - __removeRoute(__route__)__ removes an existing route
+ - __addRoute(__ route __)__ adds a new route
+ - __removeRoute(__ route __)__ removes an existing route
  
 Timeout
 ---
