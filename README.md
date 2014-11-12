@@ -56,7 +56,7 @@ server.listen(3000);
 There are already 2 Routers available:
 
  - __RoundRobin__ Dispatches requests to a group of routes in a Round-Robin fashion (every request is forwarded to a different route in a circular order)
- - __LeastUsed__ Dispatches requests to a group of routes in a Lest Used fashion (every request is forwarded to the route that has the lower number of active connections)
+ - __LeastUsed__ Dispatches requests to a group of routes in a Least Used fashion (every request is forwarded to the route that has the lower number of active connections)
 
 They both have a common interface:
 
