@@ -1,5 +1,7 @@
 socket-load-balancer
-====================
+===
+
+[![NPM Version][npm-image]][npm-url]
 
 This is a load balancer that works at TCP/Unix Socket level and distributes connections across different servers.
 
@@ -84,3 +86,6 @@ var server = slb.Server({
 server.setTimeout(120000);
 server.listen(3000);
 ```
+
+[npm-image]: https://img.shields.io/npm/v/socket-load-balancer.svg?style=flat
+[npm-url]: https://npmjs.org/package/socket-load-balancer
