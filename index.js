@@ -7,9 +7,10 @@
  */
 "use strict";
 
-module.exports.Server = require('./lib/server.js');
+module.exports.Server = require('./lib/server').Server;
 
 module.exports.routers = {
-    LeastUsed: require('./lib/routers/leastused.js').Router,
-    RoundRobin: require('./lib/routers/roundrobin.js').Router,
+    Basic: require('./lib/routers/basicrouter').Router,
+    LeastUsed: require('./lib/routers/leastused').Router,
+    RoundRobin: require('./lib/routers/roundrobin').Router
 };
