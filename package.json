@@ -1,6 +1,6 @@
 {
     "name": "socket-load-balancer",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "",
     "keywords": ["socket", "balancer"],
     "homepage": "https://github.com/B3rn475/socket-load-balancer",
