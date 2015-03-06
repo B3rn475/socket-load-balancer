@@ -1,5 +1,5 @@
 socket-load-balancer
-===
+---
 
 [![NPM Version][npm-image]][npm-url]
 
