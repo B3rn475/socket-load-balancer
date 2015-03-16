@@ -1,6 +1,6 @@
 {
     "name": "socket-load-balancer",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "A load balancer that works at TCP/Unix Socket level",
     "keywords": ["socket", "balancer"],
     "homepage": "https://github.com/B3rn475/socket-load-balancer",
